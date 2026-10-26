@@ -36,7 +36,7 @@ function App() {
     <main className="container">
       <header>
         <p className="subtitle">PRAKTIK REACT JS</p>
-        <h1>Daftar Pengguna</h1>
+        <h1>Orang - Orang</h1>
         <p>
           Data pengguna yang diambil secara langsung
           dari REST API.
@@ -103,6 +103,11 @@ function App() {
                     <p>
                       <strong>Kota</strong>
                       <span>{user.address.city}</span>
+                    </p>
+
+                    <p>
+                      <strong>Nomor</strong>
+                      <span>{user.address.zipcode}</span>
                     </p>
                   </div>
                 </article>
